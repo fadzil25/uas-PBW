@@ -22,7 +22,7 @@
             <form action="/login" method="post">
                 <div class="form-group">
                     <h3>Nama</h3>
-                    <input type="email" name="email" class="form-control" placeholder="email@example.com" autofocus
+                    <input type="email" name="email" class="form-control" placeholder="name player" autofocus
                         required>
                 </div>
                 <div class="form-group">
@@ -36,7 +36,7 @@
             </form>
         </div>
         <div class="reg">
-            <h3>Belum punya akun? <a href="daftar">Daftar</a></h3>
+            <h3><a href="daftar">buat quiz</a></h3>
         </div>
     </div>
     </div>
