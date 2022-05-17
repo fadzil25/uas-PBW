@@ -12,4 +12,4 @@ QUIZIN.AJA diharapkan dapat memberi kemudahan kepada para pengajar maupun mahasi
 
 ## Developer Team Members:  
 - Muhammad Fadzil 
-- - Rania shafia khuzai
+- Rania shafia khuzai
