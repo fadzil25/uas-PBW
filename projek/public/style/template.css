@@ -1,5 +1,48 @@
 body {
-    background-color: rgb(88, 25, 148);
-    background-size: 100%;
-    background-repeat: no-repeat;
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: #82148C;
+}
+
+.rectangle-atas {
+    position: absolute;
+    width: 700px;
+    height: 600px;
+    left: -290px;
+    top: -390px;
+    background-color: rgba(0, 0, 0, 0.2);
+    transform: rotate(10.85deg);
+}
+
+.rectangle-bawah {
+    box-sizing:border-box; 
+    position: fixed;
+    width: 700px;
+    height: 600px;
+    left: 980px;
+    top: 500px;
+    background-color: rgba(0, 0, 0, 0.2);
+    transform: rotate(10.85deg);
+}
+
+.polygon-atas {
+    position: absolute;
+    width: 220px;
+    height: 250px;
+    left: 710px;
+    top: 150px;
+    background: rgba(0, 0, 0, 0.2);
+    transform: rotate(-148.33deg);
+}
+
+.polygon-bawah {
+    box-sizing:border-box; 
+    position: fixed;
+    width: 150px;
+    height: 120px;
+    left: 30px;
+    top: 550px;
+    background: rgba(0, 0, 0, 0.2);
+    transform: rotate(-20.55deg);
 }

@@ -16,30 +16,32 @@
 </head>
 
     <body>
+    <div class="header">
+        <div class="w3-container">
+            <h2>Selamat Datang di <br> QUIZIN.AJA</h2>
+            <p></p>
+        </div>
+    </div>
+</div>
     <div class="login-form">
-        <div class=login-half>
-            <h1>MASUK<h1>
-            <form action="/login" method="post">
-                <div class="form-group">
-                    <h3>Nama</h3>
-                    <input type="email" name="email" class="form-control" placeholder="name player" autofocus
-                        required>
-                </div>
-                <div class="form-group">
-                    <h3>Password quiz</h3>
-                    <input type="password" name="password" class="form-control" placeholder="Masukkan Password"
-                        required>
-                </div>
-                <div class="form-group">
-                    <button type="submit" class="btn btn-primary btn-block" style="margin:50px 120px">MASUK QUIZ</button>
-                </div>
-            </form>
-        </div>
-        <div class="reg">
-            <h3><a href="daftar">buat quiz</a></h3>
-        </div>
+        <form action="/login" method="post">
+            <div class="form-group">
+                <h3>JOIN QUIZ</h3>
+                <input type="text" name="code" class="form-control" placeholder="masukkan code" autofocus
+                    required>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block" style="margin:50px 115px;">Masuk</button>
+            </div>
+        </form>
     </div>
     </div>
+    </div>
+    <div class="rectangle-atas"></div>
+    <div class="rectangle-bawah"></div>
+    <div class="polygon-atas"></div>
+    <div class="polygon-bawah"></div>
+
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     {{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> --}}

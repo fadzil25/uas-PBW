@@ -1,33 +1,104 @@
 body {
-    background-image: url("/assets/images/background.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: #82148C;
+}
+.rectangle-atas {
+    box-sizing:border-box; 
+    position: fixed;
+    width: 700px;
+    height: 600px;
+    left: -290px;
+    top: -390px;
+    background-color: rgba(0, 0, 0, 0.2);
+    transform: rotate(10.85deg);
 }
 
-.login-form {
-    width: 350px;
-    height: 400px;
-    background-color: rgb(255, 255, 255, 0.5);
-    margin: 75px auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px #000;
+.rectangle-bawah {
+    box-sizing:border-box; 
+    position: fixed;
+    width: 700px;
+    height: 600px;
+    left: 980px;
+    top: 500px;
+    background-color: rgba(0, 0, 0, 0.2);
+    transform: rotate(10.85deg);
 }
 
-.login-half {
-    margin: 90x 10px;
+.polygon-atas {
+    box-sizing:border-box; 
+    position: fixed;
+    width: 220px;
+    height: 250px;
+    left: 710px;
+    top: 150px;
+    background: rgba(0, 0, 0, 0.2);
+    transform: rotate(-148.33deg);
 }
 
-.login-half form input{
-    margin-right: -100px;
-    padding: 4px 80px;
+.polygon-bawah {
+    box-sizing:border-box; 
+    position: fixed;
+    width: 150px;
+    height: 120px;
+    left: 30px;
+    top: 550px;
+    background: rgba(0, 0, 0, 0.2);
+    transform: rotate(-20.55deg);
+}
+.header {
+    box-sizing:border-box; 
+    position: fixed;
+    left: 435px;
+    top: 40px;
+    width: 1728px;
+    height: 260px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
 }
 
-.login-form h1 {
-    font-size: 20px;
-    margin-left: 0px;
+.login-form { /* kotak enter code*/
+    position: absolute;
+    width: 400px;
+    height: 190px;
+    left: 470px;
+    top: 300px;
+    background: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+
 }
 
-.login-form h3 {
-    margin-bottom: 4px;
+.login-form h3 {   /* tulisan join quiz*/
+    font-family: 'Roboto';
+    font-style: normal;
+    color: white;
+    margin: 20px 40px;
+    display: flex;
+    align-items: center;
+}
+
+.form-control {
+    position: absolute;
+    width: 330px;
+    height: 40px;
+    left: 30px;
+    top: 50px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+
+}
+
+.btn {
+    height:45px; 
+    width:150px;
+    border-radius:15px;
 }
