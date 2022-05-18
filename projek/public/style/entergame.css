@@ -4,12 +4,12 @@ body {
     height: auto;
     background-color: #82148C;
 }
+
 .rectangle-atas {
-    box-sizing:border-box; 
-    position: fixed;
+    position: absolute;
     width: 700px;
     height: 600px;
-    left: -290px;
+    left: -500px;
     top: -390px;
     background-color: rgba(0, 0, 0, 0.2);
     transform: rotate(10.85deg);
@@ -27,8 +27,7 @@ body {
 }
 
 .polygon-atas {
-    box-sizing:border-box; 
-    position: fixed;
+    position: absolute;
     width: 220px;
     height: 250px;
     left: 710px;
@@ -47,53 +46,46 @@ body {
     background: rgba(0, 0, 0, 0.2);
     transform: rotate(-20.55deg);
 }
-.header { /* tulisan selamat datang*/
-    box-sizing:border-box; 
-    position: fixed;
-    left: 435px;
-    top: 40px;
-    width: 1728px;
-    height: 260px;
-    font-family: 'Mulish';
-    font-style: normal;
-    font-size: 40px;
-    line-height: 60px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-}
 
-.login-form { /* kotak enter code*/
+.login-form { /* kotak enter game*/
     position: absolute;
-    width: 400px;
-    height: 190px;
-    left: 470px;
-    top: 300px;
-    background: #000000;
+    width: 470px;
+    height: 450px;
+    left: 410px;
+    top: 100px;
+    background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
+    border-radius: 50px;
 
 }
-
-.login-form h3 {   /* tulisan join quiz*/
+.login-form h3 {   /* tulisan enter yourname quiz*/
+    font-size:20px;
     font-family: 'Roboto';
     font-style: normal;
-    color: white;
-    margin: 20px 40px;
+    color: rgb(10, 10, 10);
+    margin: 20px 170px;
     display: flex;
-    align-items: center;
+
 }
 
-.btn {
+.btn { /* button masuk*/
     font-size:25px;
     position: absolute;
     width: 330px;
     height: 50px;
-    left: 35px;
-    top: 60px;
+    left: 75px;
+    top: 370px;
     background: #FFFFFF;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
 
+}
+
+.login-form h1 {   /* tulisan name dan code*/
+    font-size:25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    color: rgb(10, 10, 10);
+    margin: 15px 20px;
+    display: flex;
 }

@@ -27,11 +27,7 @@
         <form action="/login" method="post">
             <div class="form-group">
                 <h3>JOIN QUIZ</h3>
-                <input type="text" name="code" class="form-control" placeholder="masukkan code" autofocus
-                    required>
-            </div>
-            <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-block" style="margin:50px 115px;">Masuk</button>
+                <button type="submit" class="btn btn-primary btn-block">Click Me</button>
             </div>
         </form>
     </div>

@@ -32,3 +32,7 @@ Route::get('/test', function () {
 Route::get('/template', function () {
     return view('template');
 });
+
+Route::get('/entergame', function () {
+    return view('entergame');
+});
